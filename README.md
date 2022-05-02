@@ -1,6 +1,17 @@
 # Workshop6
 sixth workshop of automation and control of process class
 
+- [Workshop6](#workshop6)
+  - [Sensor](#sensor)
+  - [Sistema Embebido](#sistema-embebido)
+    - [Hardware](#hardware)
+    - [Software](#software)
+  - [Conectividad](#conectividad)
+    - [Conectividad física](#conectividad-física)
+    - [Protocolo de comunicación](#protocolo-de-comunicación)
+    - [Protocolo de aplicación](#protocolo-de-aplicación)
+  - [Analitica de datos](#analitica-de-datos)
+
 ## Sensor
 
 Sensor digital de presión atmosferica, humedad y temperatura BME280. Este sensor provee interfaces de conexión SPI y I2C, cada una con un maximo de frecuencia de 3.4 MHz y 10 MHz respectivamente. Este sensor tiene un rango de operación para las tres funcionalidades:
