@@ -55,8 +55,10 @@ Referencia: [Raspberry Pi 3 Model B](https://www.raspberrypi.com/products/raspbe
 - Aplicación cliente en JavaScript.
 - Libreria cliente de protocolo de comunicación MQTT.
 - Libreria cliente de dispositivo IoT Azure.
-- Libreria sensor BME280
-- Libreria de uso de pines de Raspberry Pi
+- Libreria sensor BME280.
+- Libreria de uso de pines de Raspberry Pi.
+
+Referencia: [Raspberry Pi Web Simulator](https://azure-samples.github.io/raspberry-pi-web-simulator/)
 
 ## Conectividad
 
