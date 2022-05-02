@@ -46,6 +46,8 @@ Se utiliza la Raspberry Pi 3 Modelo B, está placa contiene las siguientes espci
 - Puerto Micro SD para cargar su sistema operativo y almacenar datos.
 - Fuente de alimentación Micro USB conmutada mejorada de hasta 2,5A.
 
+Referencia: [Raspberry Pi 3 Model B](https://www.raspberrypi.com/products/raspberry-pi-3-model-b/)
+
 ### Software
 
 - Sistema operativo Raspberry Pi OS.
