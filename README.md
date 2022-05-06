@@ -75,8 +75,20 @@ Referencia: [Raspberry Pi Web Simulator](https://azure-samples.github.io/raspber
 
 ### Conectividad física
 
+Implementa el protocolo I2C el cual crea una comunicación serial entre un maestro y diversos componentes que pueden funcionar como esclavos
+
+![Conectividad fisica](i2c.jpg)
 ### Protocolo de comunicación
+
+El protocolo de comunicación implementado para esta solución es el protocolo TCP, el cual servirá para el montaje del websocket para el protocolo de aplicación
 
 ### Protocolo de aplicación
 
+Para el protocolo de de aplicación se implementa el protocolo MQTT, el cual implementa un websocket para su correcto funcionamiento
+
+Referencia: [MQTT version 5.0](https://docs.oasis-open.org/mqtt/mqtt/v5.0/mqtt-v5.0.pdf)
+
 ## Analitica de datos
+
+Para la analitica de datos se implementa la conexión con la nube de azure, especificamente con el centro de IoT, el cual, tal como se ve en la siguiente imagen, recibirá información del sensor, para así poder ver su comportamiento en tiempo real
+![Conexión en azure](azure.png)
